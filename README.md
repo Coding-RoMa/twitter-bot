@@ -44,9 +44,13 @@ python twitterBot.py
 
 
 ## Endpoints:
+
 / - Check if the bot is running.
+
 /like_and_save - Like the latest tweet and save text tweets for the selected accounts.
+
 /like_latest_tweet - Like the latest tweets for the selected accounts.
+
 /retrieve_tweets - Retrieve saved tweets.
 
 

@@ -18,7 +18,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
-selected_accounts = ['account1', 'account2', 'account3']
+selected_accounts = ['account1', 'account2', 'account3'] #add tokens in the following form: for example, @crypto_website should be included as crypto_website
 
 def like_and_save_tweets():
     messages = []
